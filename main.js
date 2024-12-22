@@ -37,7 +37,7 @@ const THREE = window.MINDAR.IMAGE.THREE;
 document.addEventListener('DOMContentLoaded', async () => {
   const mindarThree = new window.MINDAR.IMAGE.MindARThree({
     container: document.body,
-    imageTargetSrc: './targets.mind',
+    imageTargetSrc: './target.mind',
   });
 
   const {renderer, scene, camera} = mindarThree;
