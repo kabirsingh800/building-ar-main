@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const light = new THREE.HemisphereLight(0xffffff, 0xbbbbff, 1);
   scene.add(light);
 
-  const raccoon = await loadGLTF('./new3.glb');
+  const raccoon = await loadGLTF('./Preset.glb');
   raccoon.scene.scale.set(0.1, 0.1, 0.1);
   raccoon.scene.position.set(0, 0, 0);
   //raccoon.scene.rotation.set(0, 0.5, 0);
