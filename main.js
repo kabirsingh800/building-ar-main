@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const raccoon = await loadGLTF('./Preset.glb');
   raccoon.scene.scale.set(0.1, 0.1, 0.1);
   raccoon.scene.position.set(0, 0, 0);
-  //raccoon.scene.rotation.set(0, 0.5, 0);
+  raccoon.scene.rotation.set(0, 0.5, 0);
 
   const anchor = mindarThree.addAnchor(0);
   anchor.group.add(raccoon.scene);
